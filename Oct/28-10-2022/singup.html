@@ -1,0 +1,148 @@
+
+
+<!-- Every html file starts with html and end with html tags. -->
+
+<html>
+
+<!-- to provide information about application, includes external resources(js, css). -->
+
+<head>
+    <link rel="stylesheet" href="Signup.css">
+    <style>
+        /* 1) why we use selectore => to avoid the voilation that's why we are using the selectore*/
+        /* this is called ID slector */
+        /* 1.1)How to use ID selectore => just give ID to whicever element you need to give css and than use that Id name in style tag and give css to them */
+      #SignupHader {
+       font-size: 90px;
+      }
+     
+      /* this is called as TagSelector */
+    /* input{
+        background-color: yellow;
+    }
+    label{
+        background-color: red;
+    } */
+     /* This slectore is called as class slectore and this  */
+
+    /* .Back-Colour{
+        background-color: blue  ;
+    } */
+
+    /*  this is called as globale selectore */
+    *{
+        font-size: 10px;
+    }
+    input{
+        color: red;
+    }
+    label{
+        color: rgb(9, 13, 243);
+        font-size: 30px;
+    }
+    /* #H4tag{
+        background-color: red;
+        /* font-weight: 900;
+        font-size: 35px; */
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    } */ 
+    Back-Colour{
+       background-color: rebeccapurple ;
+    }
+    </style>
+      
+
+</head>
+
+<!-- Includes your visible part of web page. -->
+
+<body>
+    <div class="right">
+        <!-- <img 
+        src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=893&height=600&name=image8-2.jpg"
+            alt="Google Office"> -->
+    
+      </div>
+   
+    <div class="left">
+        
+         <!-- h1[Largest], h2, h3, h4, h5, h6[Smallest] -->
+    
+        <h2 id="SignupHader" style="color: red;">Please SignUp !!</h2>
+        <h4  class="bg-green">It's quick and easy.</h4>
+    
+        <!-- Create form and controls inside form. -->
+        <!-- A container contains form controls. -->
+        <form>
+            <!-- Self closing tags -->
+            <!-- Attribute => [name="value"] -->
+            <label for="fname">Enter First Name</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>Enter Last Name</label>
+            <br />
+            <input type="text" name="fname" value="Jon" placeholder="Your First Name" />
+            <input type="text" name="lname" value="Doe" placeholder="Your Last Name" />
+            <br />
+            <label for="email">*Enter Email</label>
+            <br />
+            <input type="email" name="email" placeholder="Your Email" />
+            <br />
+            <label for="password">Enter Password</label>
+            <br />
+            <input type="password" name="password" placeholder="Your Password">
+            <br />
+            <label for="dob">Enter date of Birth</label>
+            <br />
+            <input type="date" name="dob">
+            <br />
+            <label for="mobile">Enter Mobile Phone</label>
+            <br />
+            <input type="text">
+            <input type="number" name="mobile">
+            <br />
+            <label for="gender">Please Select your Gender</label>
+            <br />
+            <input type="radio" name="gender">
+            <label for="">Male</label>
+            <input type="radio" name="gender">
+            <label for="">Female</label>
+            <input type="radio" name="gender">
+            <label for="">Other</label>
+            <br />
+            <!-- TextArea : Multiline text -->
+            <label for="address">Enter Your Address</label>
+            <br />
+            <textarea name="address" cols="30" placeholder="Your Address" rows="4"></textarea>
+            <br />
+            <label for="pincode">Enter Pincode</label>
+            <br />
+            <input type="text" name="pincode">
+            <br />
+            <label for="city">Select Your City</label>
+            <br />
+            <select name="city">
+                <option value="-1">Select City</option>
+                <option value="0">Mumbai</option>
+                <option value="1">Hyderabad</option>
+                <option value="2">Banglore</option>
+                <option value="3">New Delhi</option>
+                <option value="0">Pune</option>
+            </select>
+            <br />
+            <input type="checkbox" name="tc">
+            <label for="tc">Terms & Conditions</label>
+            
+            <!-- Buttons -->
+            <br />
+            <!-- <input type="submit" value="Sign Up"> -->
+            <!-- <input type="button" name="save" value="Sign Up"> -->
+            <button class="bg-colour" type="reset">Clear</button>
+        </form>
+    
+    </div>
+      
+</body>
+
+</html>
+
+
+
