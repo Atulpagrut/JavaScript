@@ -1,0 +1,10 @@
+#header{
+    display: flex;
+    background-color: black;
+    /* width: 40px; */
+    height: 30px;
+    /* padding: 20px; */
+}
+body{
+    margin: 0%;
+}

@@ -1,0 +1,50 @@
+.top_header{
+    display: flex;
+    background-color: rgb(133, 190, 240);
+    height: 40px;
+}
+.img_info{
+    height: 40px;
+    border-radius: 5px;
+}
+
+.right_header{
+   width: 70%;
+}
+.input_search{
+    align-items: center;
+    margin-top: 7px;
+    border-radius: 5px !important;
+    border: none !important;
+    
+}
+.left_header{
+    width: 30%;
+}
+
+.navbar-nav{
+    align-items: flex-end !important;
+}
+/* 
+.carousel-inner{
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    align-items: center;
+    padding: left 80px; 
+    
+} */
+.see_img{
+    max-height: 800px;
+    overflow: hidden;
+
+
+}
+.new_img{
+    /* x-index: -1; */
+
+}
+.bg_col{
+    /* color: red; */
+    /* background-color: rgb(7, 7, 251); */
+}
