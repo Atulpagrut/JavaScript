@@ -1,0 +1,13 @@
+1. Configure Store. - Done.
+2. Add provider with store. - Done.
+3. Add Reducer. - Done.
+4. Configure actions. - Done.
+5. dispatch actions. - Done.
+6. read data using selectors.
+
+
+Store. - > Manages all reducers and data.
+Reducer. -> Manages its own data, its states and actions.
+Dispatcher. -> Dispatches the actions from components to reducers.
+Selector. -> Select the data conitiously.
+Actions. -> whats to be performed.
